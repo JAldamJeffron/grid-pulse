@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  --color-grid-dark: #0f172a;
+  --color-grid-blue: #3b82f6;
+  --color-grid-green: #10b981;
+  --color-grid-red: #ef4444;
+  --color-mop-primary: #0047AB;
+  --color-mop-mist: #E1ECF4;
+  --color-mop-offwhite: #FDFDFA;
+  --color-mop-lightgrey: #F4F7FB;
+}
+
+@layer base {
+  body {
+    @apply text-mop-primary font-sans antialiased overflow-x-hidden;
+    background-color: #FDFDFA;
+    margin: 0;
+    margin: 0;
+  }
+}
+
+@layer utilities {
+  .glass-panel {
+    @apply bg-white border border-slate-200 shadow-sm rounded-xl;
+  }
+
+  .glass-panel-hover {
+    @apply hover:border-mop-mist transition-all duration-300 hover:shadow-md;
+  }
+
+  .text-gradient {
+    @apply text-mop-primary;
+  }
+
+  .primary-button {
+    @apply relative overflow-hidden bg-mop-primary text-white font-bold py-3 px-6 rounded-lg hover:shadow-md transition-all duration-300 shadow-sm;
+  }
+
+  .primary-button:hover {
+    @apply shadow-md;
+  }
+}
+
+/* Custom Recharts Tooltip Styling */
+.recharts-tooltip-wrapper {
+  outline: none !important;
+}
+
+.custom-recharts-tooltip {
+  @apply bg-white border border-mop-primary/20 shadow-xl rounded-lg p-3 text-sm font-medium z-50 text-mop-primary;
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "projectId": "GP-1001", "projectName": "765kV Raigarh-Pugalur", "type": "Transmission Line", "distanceKm": 1750, "terrain": "Mixed", "location": "Chhattisgarh", "status": "Completed", "plannedBudgetCr": 4500, "actualBudgetCr": 4580, "plannedDurationMonths": 36, "actualDurationMonths": 38, "delayReason": "Minor ROW clearances in Phase 3", "health": "Green", "completionDate": "2024-11-15", "coordinates": {"lat": 21.8974, "lng": 83.3966}
+  },
+  {
+    "projectId": "GP-1002", "projectName": "400kV Bhuj Expansion", "type": "Substation", "capacityMVA": 1500, "terrain": "Flat", "location": "Gujarat", "status": "Delayed", "plannedBudgetCr": 320, "actualBudgetCr": 410, "plannedDurationMonths": 18, "actualDurationMonths": 27, "delayReason": "Transformer supply chain constraint", "health": "Red", "completionDate": "Pending", "coordinates": {"lat": 23.2420, "lng": 69.6669}
+  },
+  {
+    "projectId": "GP-1003", "projectName": "220kV Zanskar Feed", "type": "Transmission Line", "distanceKm": 120, "terrain": "Rocky", "location": "Ladakh", "status": "Completed", "plannedBudgetCr": 850, "actualBudgetCr": 1120, "plannedDurationMonths": 24, "actualDurationMonths": 34, "delayReason": "Winter weather halted foundations", "health": "Yellow", "completionDate": "2023-08-10", "coordinates": {"lat": 33.4634, "lng": 76.9813}
+  },
+  {
+    "projectId": "GP-1004", "projectName": "765kV Varanasi-Kanpur", "type": "Transmission Line", "distanceKm": 320, "terrain": "Flat", "location": "Uttar Pradesh", "status": "Delayed", "plannedBudgetCr": 1200, "actualBudgetCr": 1550, "plannedDurationMonths": 22, "actualDurationMonths": 35, "delayReason": "Severe landowner protests", "health": "Red", "completionDate": "Pending", "coordinates": {"lat": 25.3176, "lng": 82.9739}
+  },
+  {
+    "projectId": "GP-1005", "projectName": "400kV Siliguri Corridor", "type": "Transmission Line", "distanceKm": 85, "terrain": "High Forest Cover", "location": "West Bengal", "status": "On Track", "plannedBudgetCr": 400, "actualBudgetCr": 400, "plannedDurationMonths": 16, "actualDurationMonths": 16, "delayReason": "None", "health": "Green", "completionDate": "2026-05-01", "coordinates": {"lat": 26.7271, "lng": 88.3953}
+  },
+  {
+    "projectId": "GP-1006", "projectName": "765kV Warangal Substation", "type": "Substation", "capacityMVA": 3000, "terrain": "Flat", "location": "Telangana", "status": "On Track", "plannedBudgetCr": 650, "actualBudgetCr": 655, "plannedDurationMonths": 20, "actualDurationMonths": 20, "delayReason": "None", "health": "Green", "completionDate": "2026-10-12", "coordinates": {"lat": 17.9689, "lng": 79.5941}
+  },
+  {
+    "projectId": "GP-1007", "projectName": "400kV Kochi Underground", "type": "Transmission Line", "distanceKm": 45, "terrain": "Urban", "location": "Kerala", "status": "Delayed", "plannedBudgetCr": 900, "actualBudgetCr": 1150, "plannedDurationMonths": 24, "actualDurationMonths": 32, "delayReason": "Municipal digging permit delays", "health": "Red", "completionDate": "Pending", "coordinates": {"lat": 9.9312, "lng": 76.2673}
+  },
+  {
+    "projectId": "GP-1008", "projectName": "220kV Shimla Heights", "type": "Transmission Line", "distanceKm": 65, "terrain": "Hilly", "location": "Himachal Pradesh", "status": "Delayed", "plannedBudgetCr": 280, "actualBudgetCr": 315, "plannedDurationMonths": 18, "actualDurationMonths": 22, "delayReason": "Unexpected landslide during excavation", "health": "Yellow", "completionDate": "Pending", "coordinates": {"lat": 31.1048, "lng": 77.1734}
+  },
+  {
+    "projectId": "GP-1009", "projectName": "765kV Pune Ring Network", "type": "Transmission Line", "distanceKm": 110, "terrain": "Mixed", "location": "Maharashtra", "status": "Completed", "plannedBudgetCr": 750, "actualBudgetCr": 750, "plannedDurationMonths": 18, "actualDurationMonths": 18, "delayReason": "None", "health": "Green", "completionDate": "2025-01-20", "coordinates": {"lat": 18.5204, "lng": 73.8567}
+  },
+  {
+    "projectId": "GP-1010", "projectName": "400kV Guwahati Link", "type": "Transmission Line", "distanceKm": 190, "terrain": "River Crossing", "location": "Assam", "status": "Delayed", "plannedBudgetCr": 820, "actualBudgetCr": 1050, "plannedDurationMonths": 24, "actualDurationMonths": 30, "delayReason": "Brahmaputra flooding halted erection", "health": "Red", "completionDate": "Pending", "coordinates": {"lat": 26.1445, "lng": 91.7362}
+  },
+  {
+    "projectId": "GP-1011", "projectName": "220kV Jaisalmer Solar Evac", "type": "Transmission Line", "distanceKm": 150, "terrain": "Desert", "location": "Rajasthan", "status": "On Track", "plannedBudgetCr": 450, "actualBudgetCr": 460, "plannedDurationMonths": 14, "actualDurationMonths": 14, "delayReason": "None", "health": "Green", "completionDate": "2026-08-30", "coordinates": {"lat": 26.9157, "lng": 70.9083}
+  },
+  {
+    "projectId": "GP-1012", "projectName": "400kV Bhopal Substation", "type": "Substation", "capacityMVA": 1000, "terrain": "Flat", "location": "Madhya Pradesh", "status": "Completed", "plannedBudgetCr": 210, "actualBudgetCr": 225, "plannedDurationMonths": 12, "actualDurationMonths": 14, "delayReason": "Minor labor shortage during Diwali", "health": "Yellow", "completionDate": "2024-05-15", "coordinates": {"lat": 23.2599, "lng": 77.4126}
+  },
+  {
+    "projectId": "GP-1013", "projectName": "765kV Ranchi-Patna", "type": "Transmission Line", "distanceKm": 340, "terrain": "High Forest Cover", "location": "Jharkhand", "status": "Delayed", "plannedBudgetCr": 1400, "actualBudgetCr": 1800, "plannedDurationMonths": 28, "actualDurationMonths": 42, "delayReason": "Forest clearance locked for 14 months", "health": "Red", "completionDate": "Pending", "coordinates": {"lat": 23.3441, "lng": 85.3096}
+  },
+  {
+    "projectId": "GP-1014", "projectName": "400kV Chennai Coastal", "type": "Transmission Line", "distanceKm": 75, "terrain": "Coastal", "location": "Tamil Nadu", "status": "On Track", "plannedBudgetCr": 500, "actualBudgetCr": 505, "plannedDurationMonths": 16, "actualDurationMonths": 16, "delayReason": "None", "health": "Green", "completionDate": "2026-06-10", "coordinates": {"lat": 13.0827, "lng": 80.2707}
+  },
+  {
+    "projectId": "GP-1015", "projectName": "220kV Dehradun Substation", "type": "Substation", "capacityMVA": 500, "terrain": "Hilly", "location": "Uttarakhand", "status": "Completed", "plannedBudgetCr": 150, "actualBudgetCr": 150, "plannedDurationMonths": 10, "actualDurationMonths": 10, "delayReason": "None", "health": "Green", "completionDate": "2023-11-20", "coordinates": {"lat": 30.3165, "lng": 78.0322}
+  },
+  {
+    "projectId": "GP-1016", "projectName": "765kV Kurnool Mega Solar", "type": "Substation", "capacityMVA": 4000, "terrain": "Flat", "location": "Andhra Pradesh", "status": "On Track", "plannedBudgetCr": 800, "actualBudgetCr": 810, "plannedDurationMonths": 22, "actualDurationMonths": 22, "delayReason": "None", "health": "Green", "completionDate": "2027-01-15", "coordinates": {"lat": 15.8281, "lng": 78.0373}
+  },
+  {
+    "projectId": "GP-1017", "projectName": "400kV Srinagar Valley", "type": "Transmission Line", "distanceKm": 95, "terrain": "Rocky", "location": "Jammu & Kashmir", "status": "Delayed", "plannedBudgetCr": 600, "actualBudgetCr": 720, "plannedDurationMonths": 20, "actualDurationMonths": 28, "delayReason": "Security halts and early snowfall", "health": "Red", "completionDate": "Pending", "coordinates": {"lat": 34.0837, "lng": 74.7973}
+  },
+  {
+    "projectId": "GP-1018", "projectName": "220kV Surat Industrial", "type": "Transmission Line", "distanceKm": 40, "terrain": "Flat", "location": "Gujarat", "status": "Completed", "plannedBudgetCr": 180, "actualBudgetCr": 195, "plannedDurationMonths": 12, "actualDurationMonths": 14, "delayReason": "Vendor delay on conductor supply", "health": "Yellow", "completionDate": "2024-02-28", "coordinates": {"lat": 21.1702, "lng": 72.8311}
+  },
+  {
+    "projectId": "GP-1019", "projectName": "765kV Agra-Gwalior", "type": "Transmission Line", "distanceKm": 120, "terrain": "Mixed", "location": "Uttar Pradesh", "status": "On Track", "plannedBudgetCr": 550, "actualBudgetCr": 550, "plannedDurationMonths": 16, "actualDurationMonths": 16, "delayReason": "None", "health": "Green", "completionDate": "2026-09-05", "coordinates": {"lat": 27.1767, "lng": 78.0081}
+  },
+  {
+    "projectId": "GP-1020", "projectName": "400kV Patna Outer", "type": "Substation", "capacityMVA": 1500, "terrain": "Flat", "location": "Bihar", "status": "Delayed", "plannedBudgetCr": 350, "actualBudgetCr": 420, "plannedDurationMonths": 14, "actualDurationMonths": 20, "delayReason": "Heavy monsoon flooded excavation site", "health": "Red", "completionDate": "Pending", "coordinates": {"lat": 25.5941, "lng": 85.1376}
+  },
+  {
+    "projectId": "GP-1021", "projectName": "765kV Tumkur Solar Park", "type": "Transmission Line", "distanceKm": 85, "terrain": "Rocky", "location": "Karnataka", "status": "Completed", "plannedBudgetCr": 420, "actualBudgetCr": 420, "plannedDurationMonths": 14, "actualDurationMonths": 14, "delayReason": "None", "health": "Green", "completionDate": "2024-12-10", "coordinates": {"lat": 13.3392, "lng": 77.1016}
+  },
+  {
+    "projectId": "GP-1022", "projectName": "400kV Cuttack Hub", "type": "Substation", "capacityMVA": 1000, "terrain": "Coastal", "location": "Odisha", "status": "On Track", "plannedBudgetCr": 290, "actualBudgetCr": 295, "plannedDurationMonths": 16, "actualDurationMonths": 16, "delayReason": "None", "health": "Green", "completionDate": "2026-11-20", "coordinates": {"lat": 20.4625, "lng": 85.8830}
+  },
+  {
+    "projectId": "GP-1023", "projectName": "220kV Imphal Feed", "type": "Transmission Line", "distanceKm": 55, "terrain": "Hilly", "location": "Manipur", "status": "Delayed", "plannedBudgetCr": 210, "actualBudgetCr": 265, "plannedDurationMonths": 18, "actualDurationMonths": 25, "delayReason": "Logistics disruption due to local strikes", "health": "Red", "completionDate": "Pending", "coordinates": {"lat": 24.8170, "lng": 93.9368}
+  },
+  {
+    "projectId": "GP-1024", "projectName": "765kV Bikaner-Moga", "type": "Transmission Line", "distanceKm": 380, "terrain": "Desert", "location": "Punjab", "status": "Completed", "plannedBudgetCr": 1450, "actualBudgetCr": 1520, "plannedDurationMonths": 24, "actualDurationMonths": 26, "delayReason": "Sandstorms delayed tower erection", "health": "Yellow", "completionDate": "2025-03-01", "coordinates": {"lat": 30.8165, "lng": 75.1716}
+  },
+  {
+    "projectId": "GP-1025", "projectName": "400kV Haldia Port Evac", "type": "Transmission Line", "distanceKm": 60, "terrain": "Flat", "location": "West Bengal", "status": "On Track", "plannedBudgetCr": 310, "actualBudgetCr": 310, "plannedDurationMonths": 12, "actualDurationMonths": 12, "delayReason": "None", "health": "Green", "completionDate": "2026-07-15", "coordinates": {"lat": 22.0257, "lng": 88.0583}
+  },
+  {
+    "projectId": "GP-1026", "projectName": "765kV Dharamjaigarh", "type": "Substation", "capacityMVA": 3000, "terrain": "High Forest Cover", "location": "Chhattisgarh", "status": "Delayed", "plannedBudgetCr": 680, "actualBudgetCr": 800, "plannedDurationMonths": 22, "actualDurationMonths": 30, "delayReason": "Wildlife clearance pending", "health": "Red", "completionDate": "Pending", "coordinates": {"lat": 22.4746, "lng": 83.2201}
+  },
+  {
+    "projectId": "GP-1027", "projectName": "220kV Nashik Grape Belt", "type": "Transmission Line", "distanceKm": 45, "terrain": "Agricultural", "location": "Maharashtra", "status": "Completed", "plannedBudgetCr": 160, "actualBudgetCr": 160, "plannedDurationMonths": 10, "actualDurationMonths": 10, "delayReason": "None", "health": "Green", "completionDate": "2023-12-05", "coordinates": {"lat": 20.0059, "lng": 73.7903}
+  },
+  {
+    "projectId": "GP-1028", "projectName": "400kV Indore Metro Evac", "type": "Transmission Line", "distanceKm": 35, "terrain": "Urban", "location": "Madhya Pradesh", "status": "Delayed", "plannedBudgetCr": 250, "actualBudgetCr": 290, "plannedDurationMonths": 14, "actualDurationMonths": 18, "delayReason": "Underground utility clashes", "health": "Yellow", "completionDate": "Pending", "coordinates": {"lat": 22.7196, "lng": 75.8577}
+  },
+  {
+    "projectId": "GP-1029", "projectName": "765kV Chittorgarh Hub", "type": "Substation", "capacityMVA": 1500, "terrain": "Rocky", "location": "Rajasthan", "status": "On Track", "plannedBudgetCr": 410, "actualBudgetCr": 415, "plannedDurationMonths": 16, "actualDurationMonths": 16, "delayReason": "None", "health": "Green", "completionDate": "2026-08-20", "coordinates": {"lat": 24.8887, "lng": 74.6269}
+  },
+  {
+    "projectId": "GP-1030", "projectName": "400kV Itanagar Link", "type": "Transmission Line", "distanceKm": 110, "terrain": "Hilly", "location": "Arunachal Pradesh", "status": "Delayed", "plannedBudgetCr": 520, "actualBudgetCr": 680, "plannedDurationMonths": 24, "actualDurationMonths": 36, "delayReason": "Severe terrain friction and monsoon washouts", "health": "Red", "completionDate": "Pending", "coordinates": {"lat": 27.0844, "lng": 93.6053}
+  },
+  {
+    "projectId": "GP-1031", "projectName": "220kV Kanyakumari Wind", "type": "Transmission Line", "distanceKm": 65, "terrain": "Coastal", "location": "Tamil Nadu", "status": "Completed", "plannedBudgetCr": 240, "actualBudgetCr": 255, "plannedDurationMonths": 12, "actualDurationMonths": 13, "delayReason": "Cyclone alerts paused erection", "health": "Yellow", "completionDate": "2024-06-30", "coordinates": {"lat": 8.0883, "lng": 77.5385}
+  },
+  {
+    "projectId": "GP-1032", "projectName": "765kV Bareilly Bypass", "type": "Transmission Line", "distanceKm": 145, "terrain": "Flat", "location": "Uttar Pradesh", "status": "On Track", "plannedBudgetCr": 620, "actualBudgetCr": 620, "plannedDurationMonths": 18, "actualDurationMonths": 18, "delayReason": "None", "health": "Green", "completionDate": "2026-12-01", "coordinates": {"lat": 28.3670, "lng": 79.4304}
+  },
+  {
+    "projectId": "GP-1033", "projectName": "400kV Vijayawada Sub", "type": "Substation", "capacityMVA": 1000, "terrain": "Flat", "location": "Andhra Pradesh", "status": "Delayed", "plannedBudgetCr": 280, "actualBudgetCr": 310, "plannedDurationMonths": 14, "actualDurationMonths": 17, "delayReason": "Land acquisition dispute in civil court", "health": "Red", "completionDate": "Pending", "coordinates": {"lat": 16.5062, "lng": 80.6480}
+  },
+  {
+    "projectId": "GP-1034", "projectName": "765kV Gorakhpur Evac", "type": "Transmission Line", "distanceKm": 210, "terrain": "River Crossing", "location": "Uttar Pradesh", "status": "Completed", "plannedBudgetCr": 890, "actualBudgetCr": 890, "plannedDurationMonths": 22, "actualDurationMonths": 22, "delayReason": "None", "health": "Green", "completionDate": "2025-02-15", "coordinates": {"lat": 26.7606, "lng": 83.3732}
+  },
+  {
+    "projectId": "GP-1035", "projectName": "220kV Hubli-Dharwad", "type": "Transmission Line", "distanceKm": 30, "terrain": "Flat", "location": "Karnataka", "status": "On Track", "plannedBudgetCr": 110, "actualBudgetCr": 112, "plannedDurationMonths": 8, "actualDurationMonths": 8, "delayReason": "None", "health": "Green", "completionDate": "2026-04-10", "coordinates": {"lat": 15.3647, "lng": 75.1240}
+  },
+  {
+    "projectId": "GP-1036", "projectName": "400kV Raipur Outer", "type": "Substation", "capacityMVA": 1500, "terrain": "Rocky", "location": "Chhattisgarh", "status": "Delayed", "plannedBudgetCr": 390, "actualBudgetCr": 435, "plannedDurationMonths": 16, "actualDurationMonths": 21, "delayReason": "Hard rock excavation took 2x planned time", "health": "Yellow", "completionDate": "Pending", "coordinates": {"lat": 21.2514, "lng": 81.6296}
+  },
+  {
+    "projectId": "GP-1037", "projectName": "765kV Angul-Jharsuguda", "type": "Transmission Line", "distanceKm": 185, "terrain": "High Forest Cover", "location": "Odisha", "status": "Delayed", "plannedBudgetCr": 790, "actualBudgetCr": 980, "plannedDurationMonths": 20, "actualDurationMonths": 31, "delayReason": "Elephant corridor clearance block", "health": "Red", "completionDate": "Pending", "coordinates": {"lat": 20.8282, "lng": 85.0972}
+  },
+  {
+    "projectId": "GP-1038", "projectName": "400kV Shillong Feed", "type": "Transmission Line", "distanceKm": 75, "terrain": "Hilly", "location": "Meghalaya", "status": "Completed", "plannedBudgetCr": 320, "actualBudgetCr": 350, "plannedDurationMonths": 16, "actualDurationMonths": 19, "delayReason": "Landslide washed out 3 tower foundations", "health": "Yellow", "completionDate": "2024-09-12", "coordinates": {"lat": 25.5788, "lng": 91.8933}
+  },
+  {
+    "projectId": "GP-1039", "projectName": "220kV Rohtak Industrial", "type": "Substation", "capacityMVA": 500, "terrain": "Flat", "location": "Haryana", "status": "On Track", "plannedBudgetCr": 140, "actualBudgetCr": 140, "plannedDurationMonths": 10, "actualDurationMonths": 10, "delayReason": "None", "health": "Green", "completionDate": "2026-05-20", "coordinates": {"lat": 28.8955, "lng": 76.5833}
+  },
+  {
+    "projectId": "GP-1040", "projectName": "765kV Bhadla Solar 2", "type": "Transmission Line", "distanceKm": 260, "terrain": "Desert", "location": "Rajasthan", "status": "Delayed", "plannedBudgetCr": 1100, "actualBudgetCr": 1250, "plannedDurationMonths": 20, "actualDurationMonths": 25, "delayReason": "Vendor cash crunch paused steel supply", "health": "Red", "completionDate": "Pending", "coordinates": {"lat": 27.5383, "lng": 71.9167}
+  },
+  {
+    "projectId": "GP-1041", "projectName": "400kV Tirunelveli Evac", "type": "Transmission Line", "distanceKm": 115, "terrain": "Agricultural", "location": "Tamil Nadu", "status": "Completed", "plannedBudgetCr": 460, "actualBudgetCr": 460, "plannedDurationMonths": 14, "actualDurationMonths": 14, "delayReason": "None", "health": "Green", "completionDate": "2025-01-30", "coordinates": {"lat": 8.7139, "lng": 77.7567}
+  },
+  {
+    "projectId": "GP-1042", "projectName": "765kV Solapur Sync", "type": "Substation", "capacityMVA": 3000, "terrain": "Rocky", "location": "Maharashtra", "status": "On Track", "plannedBudgetCr": 720, "actualBudgetCr": 730, "plannedDurationMonths": 22, "actualDurationMonths": 22, "delayReason": "None", "health": "Green", "completionDate": "2027-02-10", "coordinates": {"lat": 17.6599, "lng": 75.9064}
+  },
+  {
+    "projectId": "GP-1043", "projectName": "220kV Agartala Link", "type": "Transmission Line", "distanceKm": 45, "terrain": "Hilly", "location": "Tripura", "status": "Delayed", "plannedBudgetCr": 190, "actualBudgetCr": 210, "plannedDurationMonths": 12, "actualDurationMonths": 15, "delayReason": "Heavy pre-monsoon showers", "health": "Yellow", "completionDate": "Pending", "coordinates": {"lat": 23.8315, "lng": 91.2868}
+  },
+  {
+    "projectId": "GP-1044", "projectName": "400kV Suratgarh Thermal", "type": "Transmission Line", "distanceKm": 90, "terrain": "Desert", "location": "Rajasthan", "status": "Completed", "plannedBudgetCr": 380, "actualBudgetCr": 395, "plannedDurationMonths": 15, "actualDurationMonths": 16, "delayReason": "Minor ROW protest near thermal plant", "health": "Yellow", "completionDate": "2024-10-05", "coordinates": {"lat": 29.3179, "lng": 73.8995}
+  },
+  {
+    "projectId": "GP-1045", "projectName": "765kV Medinipur Node", "type": "Substation", "capacityMVA": 1500, "terrain": "Flat", "location": "West Bengal", "status": "Delayed", "plannedBudgetCr": 440, "actualBudgetCr": 520, "plannedDurationMonths": 18, "actualDurationMonths": 26, "delayReason": "Political strike halted civil works for 60 days", "health": "Red", "completionDate": "Pending", "coordinates": {"lat": 22.4257, "lng": 87.3199}
+  },
+  {
+    "projectId": "GP-1046", "projectName": "220kV Mandi Valley", "type": "Transmission Line", "distanceKm": 60, "terrain": "Hilly", "location": "Himachal Pradesh", "status": "On Track", "plannedBudgetCr": 260, "actualBudgetCr": 260, "plannedDurationMonths": 14, "actualDurationMonths": 14, "delayReason": "None", "health": "Green", "completionDate": "2026-09-15", "coordinates": {"lat": 31.5892, "lng": 76.9182}
+  },
+  {
+    "projectId": "GP-1047", "projectName": "400kV Jabalpur Hub", "type": "Substation", "capacityMVA": 1000, "terrain": "Mixed", "location": "Madhya Pradesh", "status": "Completed", "plannedBudgetCr": 290, "actualBudgetCr": 290, "plannedDurationMonths": 14, "actualDurationMonths": 14, "delayReason": "None", "health": "Green", "completionDate": "2024-04-12", "coordinates": {"lat": 23.1815, "lng": 79.9864}
+  },
+  {
+    "projectId": "GP-1048", "projectName": "765kV Kutch Wind Evac", "type": "Transmission Line", "distanceKm": 210, "terrain": "Desert", "location": "Gujarat", "status": "Delayed", "plannedBudgetCr": 880, "actualBudgetCr": 1010, "plannedDurationMonths": 20, "actualDurationMonths": 27, "delayReason": "Aluminum supply chain price volatility", "health": "Red", "completionDate": "Pending", "coordinates": {"lat": 23.7337, "lng": 69.8597}
+  },
+  {
+    "projectId": "GP-1049", "projectName": "400kV Amravati Outer", "type": "Transmission Line", "distanceKm": 130, "terrain": "Agricultural", "location": "Maharashtra", "status": "On Track", "plannedBudgetCr": 540, "actualBudgetCr": 545, "plannedDurationMonths": 16, "actualDurationMonths": 16, "delayReason": "None", "health": "Green", "completionDate": "2026-11-05", "coordinates": {"lat": 20.9320, "lng": 77.7523}
+  },
+  {
+    "projectId": "GP-1050", "projectName": "220kV Kochi Port Sync", "type": "Substation", "capacityMVA": 500, "terrain": "Coastal", "location": "Kerala", "status": "Completed", "plannedBudgetCr": 170, "actualBudgetCr": 185, "plannedDurationMonths": 12, "actualDurationMonths": 14, "delayReason": "Salinity issues required foundation rework", "health": "Yellow", "completionDate": "2025-01-10", "coordinates": {"lat": 9.9634, "lng": 76.2737}
+  }
+]
