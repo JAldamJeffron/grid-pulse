@@ -3,8 +3,13 @@ import { Bot, Send, User } from 'lucide-react';
 import { chatWithAI } from '../api/client';
 import clsx from 'clsx';
 
+type ChatMessage = {
+    role: 'ai' | 'user';
+    text: string;
+};
+
 export const Chatbot = () => {
-    const [messages, setMessages] = useState<{ role: 'ai' | 'user', text: string }[]>([
+    const [messages, setMessages] = useState<ChatMessage[]>([
         { role: 'ai', text: "Hello! I am your AI assistant trained on GridPulse's historical metadata. Ask me about past projects!" }
     ]);
     const [input, setInput] = useState("");
@@ -14,15 +19,15 @@ export const Chatbot = () => {
         e.preventDefault();
         if (!input.trim()) return;
 
-        const userMsg = { role: 'user', text: input };
-        setMessages(prev => [...prev, userMsg as any]);
+        const userMsg: ChatMessage = { role: 'user', text: input.trim() };
+        setMessages(prev => [...prev, userMsg]);
         setInput("");
         setLoading(true);
 
         try {
             const data = await chatWithAI(userMsg.text);
             setMessages(prev => [...prev, { role: 'ai', text: data.reply }]);
-        } catch (err) {
+        } catch {
             setMessages(prev => [...prev, { role: 'ai', text: "Sorry, I am offline." }]);
         } finally {
             setLoading(false);
@@ -75,7 +80,7 @@ export const Chatbot = () => {
                     placeholder="Ask about historical delays in 400kV projects..."
                     className="flex-1 bg-black/20 border border-gray-200/50 rounded-lg px-4 py-2.5 text-sm text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500/50 transition-all"
                 />
-                <button type="submit" disabled={loading} className="p-2.5 bg-blue-600 hover:bg-blue-500 disabled:opacity-50 disabled:hover:bg-blue-600 text-gray-900 rounded-lg transition-all shadow-lg hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]">
+                <button type="submit" disabled={loading} aria-label="Send message" className="p-2.5 bg-blue-600 hover:bg-blue-500 disabled:opacity-50 disabled:hover:bg-blue-600 text-white rounded-lg transition-all shadow-lg hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]">
                     <Send size={18} />
                 </button>
             </form>
